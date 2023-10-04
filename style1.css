@@ -1,0 +1,16 @@
+.b1 {
+    background-color: rgb(200, 0, 0);
+    height: 30px;
+    width: 100px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.join{
+    margin-left: 30px;
+    height: 100px;
+    width:500px;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 1px;
+}
