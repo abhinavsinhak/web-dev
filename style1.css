@@ -5,12 +5,36 @@
     color: white;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    font-weight: bold;
 }
-.join{
-    margin-left: 30px;
-    height: 100px;
-    width:500px;
-    text-align: center;
-    border: 2px solid red;
+.join {
+    margin-left: 20px;
+    border-width:  1px;
+    border-color: blue;
+    border-style: solid;
     border-radius: 1px;
+    height: 28px;
+    background-color: white;
+    cursor: pointer;
+    color: blue
+}
+.tweet {
+    margin-left: 20px;
+    border-width:  1px;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 10px;
+    border: none;
+    height: 28px;
+    background-color:rgb(30, 96, 196);
+    color: white;
+    cursor: pointer;
+    width: 60px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 12px;
+     
 }
