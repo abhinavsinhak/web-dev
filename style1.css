@@ -1,4 +1,10 @@
+body{
+    margin-top: 11px;
+ background-color: white;
+
+}
 .b1 {
+    margin-left: 20px;
     background-color: rgb(200, 0, 0);
     height: 30px;
     width: 100px;
@@ -8,17 +14,42 @@
     cursor: pointer;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
     font-weight: bold;
+    transition: opacity 5s;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+}
+.b1:hover{
+    opacity: 0.9;
+    box-shadow: 7px 5px 10px black;
+}
+.b1:active{
+    opacity: 0.5;
 }
 .join {
     margin-left: 20px;
     border-width:  1px;
     border-color: blue;
     border-style: solid;
-    border-radius: 1px;
+    border-radius: 3px;
     height: 28px;
     background-color: white;
     cursor: pointer;
-    color: blue
+    color: blue;
+    transition: opacity 0.15s;
+    transition: box-shadow 0.15s;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-size: 12px;
+
+}
+.join:hover{
+    background-color: rgb(58, 58, 235);
+    color: white;
+    opacity: 0.9;
+    box-shadow: 7px 5px 10px black;
+}
+.join:active{
+    opacity: 0.7;
 }
 .tweet {
     margin-left: 20px;
@@ -36,5 +67,12 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 12px;
-     
+    transition: opacity 0.15s;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+}
+.tweet:hover{
+   opacity: 0.7;
+   opacity: 0.9;
+   box-shadow: 7px 5px 10px black;
 }
