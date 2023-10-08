@@ -1,0 +1,36 @@
+.p1{
+    font-weight: bold;
+    color: rgb(0,118,0);
+}
+.div1{
+    margin-left: 10px;
+}
+.b1{
+    margin-left: 0px;
+    border-radius: 20px;
+    background-color: rgb(255,216,20);
+    border-width: 0px;
+    height: 30px;
+    width: 100px;
+    padding: 4px;
+    font-weight: bold;
+    box-shadow: 3px 3px 8px black;
+}
+.b1:active{
+    box-shadow: 5px 5px 10px black;
+}
+.b2{
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: rgb(255,164,28);
+    border-width: 0px;
+    height: 30px;
+    width: 100px;
+    padding: 4px;
+    font-weight: bold;
+    box-shadow: 3px 3px 8px black;
+    
+}
+.b2:active{
+    box-shadow: 5px 5px 10px black;
+}
